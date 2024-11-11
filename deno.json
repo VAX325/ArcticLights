@@ -1,0 +1,27 @@
+{
+  "tasks": {
+    "build": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run bundle_debug.ts",
+    "watch": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run watch_server.ts",
+    "start": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run npm:esbuild --servedir=dist",
+    "build_release": "deno run --allow-read --allow-write --allow-env --allow-net --allow-run bundle.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "pixi.js": "npm:pixi.js@^8.5.2"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "ES2016"],
+    "strict": true
+  },
+  "fmt": {
+    "include": ["src/"],
+    "exclude": ["dist/"],
+    "indentWidth": 4,
+    "lineWidth": 80,
+    "semiColons": true,
+    "singleQuote": false,
+    "useTabs": true
+  },
+  "lock": false,
+  "exclude": ["node_modules/", "dist/"]
+}

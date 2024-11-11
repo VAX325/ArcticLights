@@ -1,0 +1,18 @@
+{
+    "textures": [
+        {
+            "name": "debug_placeholder",
+            "path": "./assets/textures/debug_placeholder.png"
+        }
+    ],
+    "configs": [
+    ],
+    "sounds": [
+    ],
+    "fonts": [
+        {
+            "name": "better_vcr",
+            "path": "./assets/fonts/better-vcr.ttf"
+        }
+    ]
+}

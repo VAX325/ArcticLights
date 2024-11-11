@@ -1,0 +1,13 @@
+export const GAME_NAME: string = "arctic_lights";
+export const DEBUG: boolean = true;
+export const DEBUG_LOAD_DEBUG_WORLD = true;
+export const DEBUG_DRAW_COLLISIONS = true;
+export const DEBUG_DRAW_ENITIES = true;
+export const DEBUG_DRAW_SNAP_GRID = true;
+export const WORLD_WIDTH = 1024;
+export const WORLD_HEIGHT = 1024;
+export const ONE_CELL_SIZE = 32;
+export const WORLD_WIDTH_IN_PX = 1024 * ONE_CELL_SIZE;
+export const WORLD_HEIGHT_IN_PX = 1024 * ONE_CELL_SIZE;
+export const UI_VIRTUAL_DEVICE_WIDTH = 1920;
+export const UI_VIRTUAL_DEVICE_HEIGHT = 1080;
